@@ -1,0 +1,220 @@
+
+
+.mainContainerProduct {
+    height: auto;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.productsContainerProduct {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 40px;
+}
+
+
+.paragraphProduct {
+    text-align: center;
+    font-family: Yellowtail,sans-serif;;
+    font-size: 36px;
+    margin-bottom: 2px;
+    line-height: 49px;
+    color: #68A47F;
+}
+
+.headingProduct {
+    text-align: center;
+    font-family: Roboto,sans-serif;;
+    font-size: 50px;
+    margin-bottom: 8px;
+    line-height: 56px;
+    color: #274C5B;
+}
+
+.textAbout {
+    position: absolute;
+    top: 13%;
+    left: 49%;
+    transform: translateY(-50%);
+    font-family: Roboto, sans-serif;
+    font-size: 61px;
+    margin-bottom: 8px;
+    line-height: 56px;
+}
+
+/*basket*/
+
+.mainContainer {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     max-width: 1440px;
+     margin: 0 auto;
+ }
+
+.imageContainer {
+    margin: 0 auto;
+
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.productDetails {
+    display: flex;
+    gap: 40px;
+    padding: 50px ;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 1440px;
+}
+
+.productImage {
+    flex: 1;
+    max-width: 600px;
+    height: auto;
+    border-radius: 30px;
+    position: relative;
+    border: 2px solid #B8B8B8;
+    overflow: hidden;
+}
+
+.productInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 37px;
+}
+
+.productInfo h1 {
+    font-size: 40px;
+    line-height: 46px;
+    margin-bottom: 10px;
+}
+
+.productInfo .priceContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.priceContainer p {
+    font-size: 20px;
+    text-decoration: line-through;
+    margin: 0;
+    color: #B8B8B8;
+}
+
+.priceContainer h3 {
+    font-size: 25px;
+}
+
+.productInfo .iconStarContainer {
+    display: flex;
+    align-items: center;
+}
+
+.iconStarContainer svg {
+    color: #FFD700;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.productDescription {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 60.5ch;
+    overflow-wrap: break-word;
+    color: #525C60;
+}
+
+.quantityContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.quantityContainer h4 {
+    margin: 0;
+    font-size: 20px;
+    color: #274C5B;
+}
+
+.quantityContainer p {
+    font-size: 18px;
+    padding: 5px 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 70px;
+    display: inline-block;
+    color: #333;
+    margin: 0;
+}
+
+
+
+.productsContainerProduct {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1440px;
+    margin: 20px auto 0;
+}
+
+.productsContainerProduct > div {
+    flex: 1 1 calc(25% - 20px);
+    min-width: 250px;
+}
+
+.productInfoButton {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 8px 16px;
+    background-color: #274C5B;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.productInfoButton:hover {
+    background-color: rgba(61, 111, 125, 0.8); /* Более светлый оттенок при наведении */
+    transform: scale(1.05); /* Небольшое увеличение кнопки при наведении */
+}
+
+.millets {
+    color: white;
+    margin: 0 auto;
+}
+.productCardButton {
+    padding: 12px 16px;
+    background-color: #274C5B;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.productCardButton:hover {
+    background-color: rgba(61, 111, 125, 0.8); /* Более светлый оттенок при наведении */
+    transform: scale(1.05); /* Небольшое увеличение кнопки при наведении */
+}

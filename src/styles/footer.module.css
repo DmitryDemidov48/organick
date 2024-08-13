@@ -1,0 +1,150 @@
+
+
+.footerMain {
+    background-color: #ffffff;
+    padding: 40px 20px;
+}
+
+.footerTop {
+    position: relative;
+    text-align: center;
+    margin-top: 80px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.footerImage {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.inputContainer {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.inputContainer h1 {
+    margin: 0;
+    font-size: 50px;
+    line-height: 59px;
+    color: white;
+    text-align: left;
+    max-width: 11.5ch;
+    overflow-wrap: break-word;
+}
+
+.subscribeContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.subscribeContainer input {
+    padding: 34px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    font-size: 18px;
+    outline: none;
+    width: 250px;
+    height: 20px;
+}
+
+.subscribeContainer button {
+    font-family: Roboto,sans-serif;;
+    padding: 22px 40px 20px 40px;
+    background-color: #274C5B;
+    border-radius: 15px;
+    color: #f6f7f8;
+    font-size: 20px;
+    line-height: 23px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.subscribeContainer button:hover {
+    background-color: #3d6f7d;
+}
+
+.contactSection {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contactSection div {
+    flex: 1;
+    margin: 0 20px;
+    padding-bottom: 12px;
+}
+
+.contactSection h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contactSection h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #274C5B;
+}
+
+.contactSection p {
+    font-size: 16px;
+    color: #666;
+}
+
+.footerBottom {
+    text-align: center;
+}
+
+.footerBottom .logo {
+    margin-bottom: 20px;
+}
+
+.footerBottom p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.socialIcons svg {
+    border-radius: 50%;
+    color: #274C5B;
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.socialIcons svg:hover {
+    color: #3d6f7d;
+}
+.contactSectionItemLeft {
+    text-align: end;
+}
+
+.contactSectionItemRight {
+    text-align: start;
+}
+
+.contactSectionItemRight h1 {
+    text-align: start;
+}
+

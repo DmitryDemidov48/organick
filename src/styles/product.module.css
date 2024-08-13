@@ -1,0 +1,194 @@
+
+
+
+
+.productsContainerProduct {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 40px;
+}
+
+.productCardProduct {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.productImageProduct {
+    width: 100%;
+    height: 400px;
+    object-fit: none;
+    margin-bottom: 15px;
+}
+
+.productCategoryProduct {
+    font-size: 20px;
+    line-height: 24px;
+    color: #274C5B;
+    margin-bottom: 10px;
+}
+
+.productPriceProduct {
+    font-size: 16px;
+    color: #B8B8B8;
+    text-decoration: line-through;
+    margin-bottom: 5px;
+}
+
+.productSaleProduct {
+    font-size: 18px;
+    line-height: 24px;
+    color: #274C5B;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.starsContainerProduct {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.starIconProduct {
+    color: #FFD700;
+    margin-right: 5px;
+}
+
+.buttonProduct {
+    position: absolute;
+    top: 4%;
+    left: 10%;
+    padding: 10px 20px;
+    background-color: #274C5B;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buttonProduct:hover {
+    background-color: #1f3a4a;
+}
+
+.buttonProduct:hover .arrowIconProduct {
+    background-color: #fff;
+    color: #274C5B;
+}
+
+.productCardItemProduct {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textContainerProduct {
+    text-align: center;
+}
+
+
+.buttonContainerItemProduct {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttonItemProduct {
+    margin-top: 30px;
+    position: relative;
+    font-family: Roboto,sans-serif;;
+    padding: 25px 60px 20px 40px;
+    background-color: #274C5B;
+    border: none;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 23px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.buttonItemProduct:hover {
+    background-color: #363942;
+}
+
+.arrowIconProduct {
+    margin-left: 8px;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 55%;
+    right: 3px;
+    transform: translateY(-50%);
+    background-color: #317996;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+    font-size: 20px;
+}
+
+
+.buttonContainerAbout {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttonAbout {
+    margin-top: 30px;
+    position: relative;
+    font-family: Roboto,sans-serif;
+    padding: 25px 60px 20px 40px;
+    background-color: #274C5B;
+    border: none;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 23px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.buttonAbout:hover {
+    background-color: #363942;
+}
+
+.buttonAbout:hover svg {
+    background-color: #fff;
+    color: #274C5B;
+}
+
+.arrowIcon {
+    margin-left: 8px;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 55%;
+    right: 3px;
+    transform: translateY(-50%);
+    background-color: #317996;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+    font-size: 20px;
+}

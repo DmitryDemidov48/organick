@@ -1,0 +1,80 @@
+.main {
+    padding: 60px;
+    background-color:#274C5B;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.header p {
+    font-family: Yellowtail,sans-serif;
+    font-size: 36px;
+    margin-bottom: 2px;
+    line-height: 49px;
+    color: #68A47F;
+}
+
+.header h1 {
+    font-size: 50px;
+    line-height: 58px;
+    color: #ffffff;
+    margin: 0;
+}
+
+
+
+
+.productsGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 40px;
+}
+
+
+.buttonNatural {
+    position: relative;
+    font-family: Roboto,sans-serif;;
+    padding: 18px 60px 20px 40px;
+    background-color: #EFD372;
+    border: none;
+    border-radius: 4px;
+    color: #274C5B;
+    font-size: 20px;
+    line-height: 23px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.buttonNatural:hover {
+    background-color: #e8c138;
+}
+
+.buttonNatural:hover .arrowIcon {
+    background-color: #fff;
+    color: #274C5B;
+}
+
+.arrowIcon {
+    margin-left: 8px;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    right: 3px;
+    transform: translateY(-50%);
+    background-color: #274C5B;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+    font-size: 20px;
+}

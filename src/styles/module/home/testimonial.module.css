@@ -1,0 +1,130 @@
+/* Основной контейнер */
+.main {
+    padding-top: 100px;
+    height: auto;
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.imageContainer {
+    position: relative;
+    width: 100%;
+}
+/* Контейнер для заголовков */
+.header {
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    transform: translateY(-50%);
+    color: #fff;
+    z-index: 2;
+    max-width: 800px;
+}
+
+.paragraph {
+    font-family: Yellowtail,sans-serif;
+    font-size: 36px;
+    margin-bottom: 2px;
+    line-height: 49px;
+    text-align: center;
+    color: #68A47F;
+}
+
+.heading {
+    font-family: Roboto,sans-serif;;
+    font-size: 50px;
+    margin-bottom: 8px;
+    line-height: 56px;
+    max-width: 32.5ch;
+    overflow-wrap: break-word;
+    color: #274C5B;
+    text-align: center;
+}
+
+/* Контейнер для отзыва */
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* Контейнер для информации пользователя */
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.userInfo img {
+    border-radius: 50%;
+
+}
+
+/* Контейнер для звезд */
+.stars {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+/* Стили для текста отзыва */
+.text {
+    text-align: center;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0 auto;
+    max-width: 70.5ch;
+    overflow-wrap: break-word;
+}
+
+/* Контейнер для статистики */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+/* Статистические блоки */
+.stats div {
+    flex: 1;
+    max-width: 200px;  /* Максимальная ширина */
+    max-height: 200px; /* Максимальная высота */
+    width: 200px;      /* Ширина блока */
+    height: 200px;     /* Высота блока */
+    text-align: center;
+    border: 2px solid #7EB693;
+    padding: 20px;
+    border-radius: 50%; /* Круглая форма */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #030303; /* Белый текст для контраста */
+}
+
+
+.stats h1 {
+    font-family: Roboto,sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 58px;
+    margin: 0;
+    color: #070707; /* Белый текст для контраста */
+}
+
+.stats p {
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0 auto;
+    max-width: 13.5ch;
+    overflow-wrap: break-word;
+    color: #0c0c0c; /* Белый текст для контраста */
+}

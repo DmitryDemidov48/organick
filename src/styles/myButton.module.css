@@ -1,0 +1,39 @@
+.buttonContainer {
+    position: relative;
+    font-family: Roboto, sans-serif;
+    padding: 18px 60px 20px 40px;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    line-height: 23px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: var(--hoverBgColor);
+}
+
+.button:hover .arrowIcon {
+    background-color: var(--hoverIconBgColor);
+    color: var(--hoverIconColor);
+}
+
+.arrowIcon {
+    margin-left: 8px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    right: 3px;
+    transform: translateY(-50%);
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}

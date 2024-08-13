@@ -1,0 +1,141 @@
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 20px;
+
+}
+
+
+.mainImage {
+    width: 100%;
+    max-width: 1440px;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.contentSection {
+    text-align: -webkit-center;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.contentSection h1 {
+    font-size: 50px;
+    line-height: 59px;
+
+    color: #274C5B;
+    margin-bottom: 20px;
+
+}
+
+.contentSection p {
+    text-align: start;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    color: #525C60;
+    max-width: 82.5ch;
+    overflow-wrap: break-word;
+}
+.imageTextSection {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.imageTextSection .imageBlock {
+
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.imageTextSection .imageBlock img {
+    width: 100%;
+    height: auto;
+    max-width: 379px;
+    border-radius: 8px;
+}
+
+ .textBlock {
+     background-color:#F9F8F8;
+     border-radius: 15px;
+     padding: 55px;
+}
+
+.imageTextSection .textBlock h3 {
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.imageTextSection .textBlock p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+    max-width: 39.5ch;
+    overflow-wrap: break-word;
+}
+
+.largeTextSection {
+    width: 100%;
+    max-width: 800px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.largeTextSection h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.largeTextSection p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+    max-width: 60.5ch;
+    overflow-wrap: break-word;
+}
+
+.benefitsSection {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 40px;
+}
+
+.benefitItem {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: left;
+    background-color:#F9F8F8;
+    padding: 20px;
+    border-radius: 35px;
+}
+
+.benefitItem h1 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.benefitItem div {
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #4CAF50;
+    color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}

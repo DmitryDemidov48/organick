@@ -1,0 +1,149 @@
+
+
+.mainContainerAbout {
+    padding-top: 140px;
+    height: auto;
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.imageContainerAbout {
+    position: relative;
+    width: 100%;
+}
+
+.textAbout {
+    position: absolute;
+    top: -62%;
+    left: 40%;
+    transform: translateY(-50%);
+    font-family: Roboto, sans-serif;
+    font-size: 61px;
+    margin-bottom: 8px;
+    line-height: 56px;
+}
+
+.textContainerAbout {
+    position: absolute;
+    top: 44%;
+    right: 20px;
+    transform: translateY(-50%);
+    color: #fff;
+    z-index: 2;
+    max-width: 800px;
+}
+
+.paragraphAbout {
+    font-family: Yellowtail,sans-serif;
+    font-size: 36px;
+    margin-bottom: 2px;
+    line-height: 49px;
+    color: #68A47F;
+}
+
+.headingAbout {
+    font-family: Roboto,sans-serif;;
+    font-size: 50px;
+    margin-bottom: 8px;
+    line-height: 56px;
+    max-width: 21.5ch;
+    overflow-wrap: break-word;
+    color: #274C5B;
+}
+
+.paragraphItemAbout {
+    font-size: 18px;
+    margin-bottom: 16px;
+    line-height: 30px;
+    max-width: 61.5ch;
+    overflow-wrap: break-word;
+    color: #333;
+}
+
+.iconTextContainerAbout {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 0;
+}
+
+.iconContainerAbout {
+    flex-shrink: 0;
+}
+
+.iconHeadingAbout {
+    font-size: 18px;
+    line-height: 29px;
+    margin-bottom: 8px;
+    color: #274C5B;
+    max-width: 16.5ch;
+    overflow-wrap: break-word;
+}
+
+.iconTextAbout {
+    font-size: 18px;
+    line-height: 29.5px;
+    max-width: 47.5ch;
+    overflow-wrap: break-word;
+    color: #555;
+}
+
+.infoContainerAbout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
+
+.buttonContainerAbout {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttonAbout {
+    margin-top: 30px;
+    position: relative;
+    font-family: Roboto,sans-serif;;
+    padding: 25px 60px 20px 40px;
+    background-color: #274C5B;
+    border: none;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 23px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.buttonAbout:hover {
+    background-color: #363942;
+}
+
+.buttonAbout:hover svg {
+    background-color: #fff;
+    color: #274C5B;
+}
+
+.arrowIcon {
+    margin-left: 8px;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 55%;
+    right: 3px;
+    transform: translateY(-50%);
+    background-color: #317996;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+    font-size: 20px;
+}

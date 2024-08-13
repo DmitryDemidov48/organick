@@ -1,0 +1,97 @@
+.servicesContainer {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+}
+
+.mainImage {
+    margin-bottom: 40px;
+}
+
+.sectionHeader {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.sectionHeader p {
+    font-family: Yellowtail;
+    font-size: 36px;
+    line-height: 49px;
+    color: #7EB693;
+    
+
+}
+
+.sectionHeader h1 {
+    font-size: 50px;
+    line-height: 59px;
+    font-weight: bold;
+    color:   #274C5B;;
+
+
+}
+
+.serviceCards {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.infoContainer {
+    display: flex;
+    flex-direction: row;
+}
+.serviceCard {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.serviceCard h1 {
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #34495e;
+}
+
+.serviceCard p {
+    font-size: 14px;
+    color: #7f8c8d;
+}
+
+.serviceSection {
+    display: flex;
+    align-items: flex-start;
+}
+
+.serviceImage {
+    flex: 1;
+    margin-right: 40px;
+}
+
+.serviceDetails {
+    flex: 1;
+}
+
+.detailCard {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.detailCard h1 {
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #34495e;
+}
+
+.detailCard p {
+    font-size: 14px;
+    color: #7f8c8d;
+}

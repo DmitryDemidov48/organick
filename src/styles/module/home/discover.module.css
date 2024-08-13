@@ -1,0 +1,255 @@
+.main {
+    padding: 40px;
+    background-color: #f9f9f9;
+    height: auto;
+}
+
+.header {
+    text-align: center;
+}
+
+.news {
+    font-family: Yellowtail,sans-serif;
+    font-size: 36px;
+    line-height: 49px;
+    color: #7EB693;
+    margin: 0;
+    text-align: start;
+}
+
+.titleContainer {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+.title {
+    font-size: 50px;
+    line-height: 59px;
+    color:#274C5B;
+    max-width: 22.5ch;
+    overflow-wrap: break-word;
+    text-align: start;
+
+}
+
+
+.buttonContainerNatural {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttonNatural {
+    position: relative;
+    font-family: Roboto,sans-serif;;
+    padding: 18px 60px 20px 40px;
+    background-color: inherit;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: #274C5B;
+    font-size: 20px;
+    line-height: 23px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.buttonNatural:hover {
+    background-color: #e8c138;
+}
+
+.buttonNatural:hover .arrowIcon {
+    background-color: #fff;
+    color: #274C5B;
+}
+.buttonDiscover {
+    position: relative;
+    font-family: Roboto,sans-serif;;
+    padding: 18px 60px 20px 40px;
+    background-color:#EFD372;
+    border: none;
+    border-radius: 10px;
+    color: #274C5B;
+    font-size: 20px;
+    line-height: 23px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.buttonNatural:hover {
+    background-color: #e8c138;
+}
+
+.buttonNatural:hover .arrowIcon {
+    background-color: #fff;
+    color: #274C5B;
+}
+
+.arrowIcon {
+    margin-left: 8px;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    right: 3px;
+    transform: translateY(-50%);
+    background-color: #274C5B;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+    font-size: 20px;
+}
+
+
+.cardsContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.card {
+    position: relative;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-basis: calc(50% - 10px);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.image {
+    width: 100%;
+    height: 529px;
+
+}
+
+.dateContainer {
+    position: absolute;
+    max-width: 100px;
+    max-height: 100px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 2px solid #7EB693;
+    padding: 20px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #030303; /* Белый текст для контраста */
+    top: 7%;
+    left: 7%;
+}
+
+
+.date {
+    font-family: Roboto,sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 10px;
+}
+
+.content {
+    position: absolute;
+    background-color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    top: 55%;
+    left: 6%;
+    border-radius: 20px;
+    width: 90%;
+    height: 61%;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+.authorContainer {
+    display: flex;
+    align-items: center;
+
+}
+
+.icon {
+    width: 18px;
+    height: 20px;
+    margin-right: 10px;
+    color:  #EFD372;
+}
+
+.author {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+.textContainer {
+
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 30px;
+    color:#525C60;
+    max-width: 43.5ch;
+    overflow-wrap: break-word;
+}
+
+.readMoreButton {
+    align-self: flex-start;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #7EB693;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.readMoreButton:hover {
+    background-color: #6aa47b;
+}
+
+
+.arrowIcon {
+    margin-left: 8px;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    right: 3px;
+    transform: translateY(-50%);
+    background-color: #274C5B;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+    font-size: 20px;
+}
